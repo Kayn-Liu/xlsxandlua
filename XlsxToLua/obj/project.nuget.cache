@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMcYrgDRi5q+F+AAl3Q9/DZXXMUt34NF+gZ61ELRifhi1feXborBHDRDT3xURrQGl10pKhF+js6f9eQ82NG/6w==",
+  "dgSpecHash": "+2fQDGqaWAsvQX7nNiC/alOmeFzrDWiOvk/3yoCTHKnlkAZxVw6LGh/oV/PTPBx/Z4BLXDWy5Z899Klpqikm5A==",
   "success": true,
-  "projectFilePath": "G:\\CPP\\LanguageXlsxToLua\\LanguageXlsxToLua.csproj",
+  "projectFilePath": "G:\\XlsxAndLua\\XlsxToLua\\LanguageXlsxToLua.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
@@ -16,8 +16,8 @@
     "C:\\Users\\liuyu\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\liuyu\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\liuyu\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
-    "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\liuyu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }

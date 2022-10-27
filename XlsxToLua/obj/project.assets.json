@@ -636,11 +636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\CPP\\LanguageXlsxToLua\\LanguageXlsxToLua.csproj",
+      "projectUniqueName": "G:\\XlsxAndLua\\XlsxToLua\\LanguageXlsxToLua.csproj",
       "projectName": "LanguageXlsxToLua",
-      "projectPath": "G:\\CPP\\LanguageXlsxToLua\\LanguageXlsxToLua.csproj",
+      "projectPath": "G:\\XlsxAndLua\\XlsxToLua\\LanguageXlsxToLua.csproj",
       "packagesPath": "C:\\Users\\liuyu\\.nuget\\packages\\",
-      "outputPath": "G:\\CPP\\LanguageXlsxToLua\\obj\\",
+      "outputPath": "G:\\XlsxAndLua\\XlsxToLua\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\liuyu\\AppData\\Roaming\\NuGet\\NuGet.Config",

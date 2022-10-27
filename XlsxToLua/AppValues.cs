@@ -15,6 +15,8 @@ namespace LanguageXlsxToLua
             ["IN"] = "Indonesian",
         };
 
+        public static int ColumnCount = Languages.Count;
+
         public static string Xlsx = ".xlsx";
         public static string Lua = ".lua";
 

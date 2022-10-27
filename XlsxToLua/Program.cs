@@ -108,9 +108,9 @@ namespace LanguageXlsxToLua
 
         static string[] GetLanguages(DataTable dt)
         {
-            int colCount = dt.Columns.Count;
-            string[] languages = new string[colCount - 1];
-            for (int col = 1; col < colCount; col++) //[0][0] is meaningless, so count col at 1
+            int colCount = AppValues.ColumnCount;
+            string[] languages = new string[colCount];
+            for (int col = 1; col <= colCount; col++) //[0][0] is meaningless, so count col at 1
             {
                 string lang_short = dt.Rows[0][col].ToString();
                 languages[col - 1] = AppValues.Languages[lang_short];
@@ -135,12 +135,17 @@ namespace LanguageXlsxToLua
             for (int row = 1; row < rowCount; row++)
             {
                 string fieldName = sheet[row][0].ToString();
-                for (int col = 1; col < dt.Columns.Count; col++)
+                for (int col = 1; col <= AppValues.ColumnCount; col++)
                 {
                     string language = languages[col - 1];
                     string value = sheet[row][col].ToString();
                     value = value.Replace("\n", "\\n");
-                    value = '"' + value + '"';
+                    if (!String.Equals(language, "Chinese")) //对非中文语言中的全角双引号替换成半角双引号
+                    {
+                        value = value.Replace('“', '"');
+                        value = value.Replace('”', '"');
+                    }
+                    value = "'" + value + "'";
                     data[language][row - 1] = new Field()
                     {
                         Name = fieldName,
